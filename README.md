@@ -1,4 +1,4 @@
-# AEPhone-VRChat-OSC-Firewall-Patch
+# AEPhone-VRChat-SetUp-tool 
 ## システム初期化中に、エラーコードも出ずにAEphone_HUBが最初の画面に戻ってる場合の対処法
 AEPhone_HUBのAEphone_android起動時にvrchatのoscポート許可の確認もしくは、9000もしくは9001のポート開放の確認を初回時に行ってる可能性があり、このパッチを使ってえばAEPhoneが使える可能性があります<br>
 (AEPhoneのソースコードを見ていないので経験と知識での作成です)<br>
@@ -13,3 +13,8 @@ AEPhone_HUBのAEphone_android起動時にvrchatのoscポート許可の確認も
 ※手順1ができていれば2番以降は飛ばしても大丈夫です、人によってはこの手順でうまくいかない場合もあります、ご承知お願いします<br>
 ※これでうまくいかない場合、aephone_hubのソースコードを見ないと原因究明ができない場合がありますので、ご承知お願いします<br>
 これでもうまくいかない場合は、AEPhone公式[discord](https://discord.gg/YQcaQVyf8E)まで
+## USBケーブルチェッカー
+adbコマンドを使った接続ができるかの確認できるbatファイルまたは、exeファイルを作りましたaephoneのダウンロード場所に置いてもらって起動すると、そのケーブルが使えるか確認できます。<br>
+**USBデバックは必ずONにしてください**<br>
+初期状態では下記のパスにインストールされます。<br>
+``C:\Users\ユーザーネーム\AppData\Local\AEPhone``<br>
